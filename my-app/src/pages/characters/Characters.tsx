@@ -1,13 +1,13 @@
 import React, { FC, useState, useEffect } from "react";
-import styled from "./Home.module.css";
+import styled from "./Characters.module.css";
 import Navbar from "../../components/navbar/Navbar";
 import Articles from "../../components/articles/Articles";
 import ArticleParagrafh from "../../components/ArticleParagrafh/ArticleParagrafh";
-interface IHome {}
+interface ICharacters {}
 
-const Home: FC<IHome> = ({}) => {
+const Characters: FC<ICharacters> = ({}) => {
   return (
-    <div className={styled.Home}>
+    <div className={styled.Characters}>
       <Navbar />
       <Articles />
       <ArticleParagrafh />
@@ -15,4 +15,4 @@ const Home: FC<IHome> = ({}) => {
   );
 };
 
-export default Home;
+export default Characters;

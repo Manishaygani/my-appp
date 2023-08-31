@@ -18,3 +18,7 @@ padding:20px;
 .navbar li:hover{
     background-color: rgb(133, 127, 120);
 }
+.navbar a{
+    color: white;
+    text-decoration: none;
+}

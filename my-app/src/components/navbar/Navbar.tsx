@@ -6,7 +6,9 @@ const Navbar: FC<INavbar> = ({}) => {
   return (
     <div className={styled.navbar}>
       <ol>
-        <li>characters</li>
+        <a href="/">
+          <li>characters</li>
+        </a>
         <li>pokemon</li>
         <li>video gallery</li>
       </ol>
